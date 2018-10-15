@@ -5,7 +5,7 @@ import os
 class myHTTPRequstHandler(BaseHTTPRequestHandler):
     # override GET command
     def do_GET(self):
-        rootdir = 'D:\Python\HttpTests'  # file location
+        rootdir = 'D:/Python/HttpTests/'  # file location
         try:
             if self.path.endswith('.html'):
                 f = open(rootdir + self.path)  # opens requested file
