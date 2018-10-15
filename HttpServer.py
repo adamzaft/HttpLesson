@@ -34,10 +34,14 @@ class myHTTPRequstHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
             # send file content to client
-            self.wfile.write('POST METHOD')
+
+            my_str = "Entering POST Section in server"
+            my_str_as_bytes = str.encode(my_str)
+
+            self.wfile.write(my_str_as_bytes)
 
         except IOError:
-            self.send_error(404,'Error from POST')
+            self.send_error(404, 'Error from POST')
 
 def run():
     print('Starting HttpServer..please hold..')
