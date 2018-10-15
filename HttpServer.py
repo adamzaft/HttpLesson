@@ -24,6 +24,21 @@ class myHTTPRequstHandler(BaseHTTPRequestHandler):
         except IOError:
             self.send_error(404, 'File not found')
 
+    def do_POST(self):
+        try:
+            # send 200 response
+            self.send_response(200)
+
+            # send header first
+            self.send_header('Content-type', 'text-html')
+            self.end_headers()
+
+            # send file content to client
+            self.wfile.write('POST METHOD')
+
+        except IOError:
+            self.send_error(404,'Error from POST')
+
 def run():
     print('Starting HttpServer..please hold..')
 
