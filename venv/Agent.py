@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import http.client
+import XmlParser
 
 
 class myHTTPRequstHandler(BaseHTTPRequestHandler): # override POST command
@@ -24,7 +25,18 @@ def run():
     server_address = ('127.0.0.1', 80)
     httpd = HTTPServer(server_address, myHTTPRequstHandler)
     print('~~~~~~~~~ Server is online - welcome to SKYNET~~~~~~~~~')
+    agentID =XmlParser.agentID()
+    print(agentID)
+    agentIP = XmlParser.agentIP()
+    print(agentIP)
+    agentPORT = XmlParser.agentPORT()
+    print(agentPORT)
+    serverIP = XmlParser.serverIP()
+    print(serverIP)
+    serverPORT = XmlParser.serverPORT()
+    print(serverPORT)
     httpd.serve_forever()
+
     # Initialize server and start it, need to add read from configuration -> IP and PORT and ID
 
 
