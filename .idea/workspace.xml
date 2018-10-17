@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68814357-c8e4-49ab-83d0-8f1ac1a9bd6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/TM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/XmlParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/XmlParser.py" afterDir="false" />
     </list>
@@ -26,24 +25,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2901" />
+          <entry key="py" value="3042" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="2901" />
+          <entry key="Python" value="3042" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -101,11 +100,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementPath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="560" selection-start-line="560" selection-end-line="560" />
             </state>
           </provider>
         </entry>
@@ -130,9 +147,9 @@
         <option value="$PROJECT_DIR$/HttpClient.py" />
         <option value="$PROJECT_DIR$/HttpServer.py" />
         <option value="$PROJECT_DIR$/venv/test.py" />
-        <option value="$PROJECT_DIR$/venv/Agent.py" />
-        <option value="$PROJECT_DIR$/venv/XmlParser.py" />
         <option value="$PROJECT_DIR$/venv/TM.py" />
+        <option value="$PROJECT_DIR$/venv/XmlParser.py" />
+        <option value="$PROJECT_DIR$/venv/Agent.py" />
       </list>
     </option>
   </component>
@@ -200,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TM">
+  <component name="RunManager" selected="Python.Agent">
     <configuration name="Agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HttpLesson" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,9 +354,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TM" />
         <item itemvalue="Python.Agent" />
         <item itemvalue="Python.XmlParser" />
+        <item itemvalue="Python.TM" />
         <item itemvalue="Python.HttpClient" />
         <item itemvalue="Python.kodefun-httpserver" />
       </list>
@@ -449,6 +466,17 @@
     <MESSAGE value="Added support from reading from config (XML) file" />
     <option name="LAST_COMMIT_MESSAGE" value="Added support from reading from config (XML) file" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/XmlParser.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_python-http-server-client-master.zip/python-http-server-client-master/kodefun-httpserver.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,31 +500,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/test.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="607" selection-start-line="607" selection-end-line="607" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementPath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -511,6 +518,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/TM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -522,10 +536,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="238">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -534,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>

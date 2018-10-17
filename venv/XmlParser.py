@@ -1,19 +1,21 @@
 from xml.etree import ElementTree as ET
 import os
 
-filePath = '../test.xml'
+filePath = '../Config.xml'
 exists = os.path.isfile(filePath)
 if exists:
     print('Config file found, starting app')
 else:
     print('No config file found')
-def agentID():
+def agentID(ID):
     try:
         tree = ET.parse(filePath)
         root = tree.getroot()
        #print(root)
-        for p in root.findall('.//AgentID'):
-            return p.text
+        for p in root.findall('.//Agent'):
+            for i in root.findall('.//AgentID'):
+                if(i.text==ID):
+                    return i.text
     except IOError:
         print('Error occured during parsing')
 def agentIP():

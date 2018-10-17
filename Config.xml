@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<data>
+	<Agent>
+		<AgentID>1</AgentID>
+		<AgentIP>127.0.0.1</AgentIP>
+		<AgentPORT>81</AgentPORT>
+	</Agent>
+	<Server>
+		<ServerIP>127.0.0.1</ServerIP>
+		<ServerPORT>80</ServerPORT>
+	</Server>
+</data>

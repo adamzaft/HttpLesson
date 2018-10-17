@@ -1,7 +1,11 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import http.client
 import XmlParser
+import argparse
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--agentid", help="Indicates agent ID")
+args = parser.parse_args()
 
 class myHTTPRequstHandler(BaseHTTPRequestHandler): # override POST command
     def do_POST(self):
@@ -28,10 +32,7 @@ def run():
     print(agentPORT)
     server_address = (agentIP, int(agentPORT))
     httpd = HTTPServer(server_address, myHTTPRequstHandler)
-    print('~~~~~~~~~ Server is online - welcome to SKYNET~~~~~~~~~')
-
-    agentID =XmlParser.agentID()
-    print(agentID)
+    print('~~~~~~~~~ Agent',XmlParser.agentID(args.agentid),' is online - welcome to SKYNET~~~~~~~~~')
     serverIP = XmlParser.serverIP()
     print(serverIP)
     serverPORT = XmlParser.serverPORT()
