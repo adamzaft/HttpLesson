@@ -1,6 +1,12 @@
 from xml.etree import ElementTree as ET
+import os
 
-filePath = 'D:/Python/HttpTests/test.xml'
+filePath = '../test.xml'
+exists = os.path.isfile(filePath)
+if exists:
+    print('Config file found, starting app')
+else:
+    print('No config file found')
 def agentID():
     try:
         tree = ET.parse(filePath)

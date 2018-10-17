@@ -22,15 +22,16 @@ class myHTTPRequstHandler(BaseHTTPRequestHandler): # override POST command
 
 def run():
     print('Starting Agent..please hold..')
-    server_address = ('127.0.0.1', 80)
-    httpd = HTTPServer(server_address, myHTTPRequstHandler)
-    print('~~~~~~~~~ Server is online - welcome to SKYNET~~~~~~~~~')
-    agentID =XmlParser.agentID()
-    print(agentID)
     agentIP = XmlParser.agentIP()
     print(agentIP)
     agentPORT = XmlParser.agentPORT()
     print(agentPORT)
+    server_address = (agentIP, int(agentPORT))
+    httpd = HTTPServer(server_address, myHTTPRequstHandler)
+    print('~~~~~~~~~ Server is online - welcome to SKYNET~~~~~~~~~')
+
+    agentID =XmlParser.agentID()
+    print(agentID)
     serverIP = XmlParser.serverIP()
     print(serverIP)
     serverPORT = XmlParser.serverPORT()
