@@ -1,7 +1,10 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import http.client
+# import http.client
 import XmlParser
 import argparse
+from multiprocessing import Process
+import requests
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--agentid", help="Indicates agent ID")
@@ -24,6 +27,8 @@ class myHTTPRequstHandler(BaseHTTPRequestHandler): # override POST command
         except IOError:
             self.send_error(404, 'Error from POST')
 
+
+
 def run():
     print('Starting Agent..please hold..')
     agentIP = XmlParser.agentIP()
@@ -32,15 +37,33 @@ def run():
     print(agentPORT)
     server_address = (agentIP, int(agentPORT))
     httpd = HTTPServer(server_address, myHTTPRequstHandler)
-    print('~~~~~~~~~ Agent',XmlParser.agentID(args.agentid),' is online - welcome to SKYNET~~~~~~~~~')
-    serverIP = XmlParser.serverIP()
-    print(serverIP)
-    serverPORT = XmlParser.serverPORT()
-    print(serverPORT)
+   # print('~~~~~~~~~ Agent',XmlParser.agentID(args.agentid),' is online - welcome to SKYNET~~~~~~~~~')
+    print('~~~~~~~~~ Agent', XmlParser.agentID('1'), ' is online - welcome to SKYNET~~~~~~~~~')
     httpd.serve_forever()
 
     # Initialize server and start it, need to add read from configuration -> IP and PORT and ID
 
-
 if __name__ == '__main__':
-    run()
+
+    #run()
+    serverIP = XmlParser.serverIP()
+    print('Server ip is:',serverIP)
+    serverPORT = XmlParser.serverPORT()
+    print('Server port is:',serverPORT)
+
+    #conn = http.client.HTTPConnection(serverIP)
+
+
+    #str_byte=str.encode('POST')
+    #conn.send(str_byte)
+    # Get response from server
+    #rsp = conn.getresponse()
+    # Print server response and data
+   # print(rsp.status, rsp.reason)
+    #data_received = rsp.read()
+    #print(data_received)
+
+    #conn.close()
+    payload = {'some': 'data'}
+    r= requests.post('http://127.0.0.1', data={'foo': 'bar'})
+    print(r.text)
