@@ -1,5 +1,4 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-# import http.client
 import XmlParser
 import argparse
 from multiprocessing import Process
@@ -51,19 +50,6 @@ if __name__ == '__main__':
     serverPORT = XmlParser.serverPORT()
     print('Server port is:',serverPORT)
 
-    #conn = http.client.HTTPConnection(serverIP)
-
-
-    #str_byte=str.encode('POST')
-    #conn.send(str_byte)
-    # Get response from server
-    #rsp = conn.getresponse()
-    # Print server response and data
-   # print(rsp.status, rsp.reason)
-    #data_received = rsp.read()
-    #print(data_received)
-
-    #conn.close()
     payload = {'some': 'data'}
     r= requests.post('http://127.0.0.1', data={'foo': 'bar'})
     print(r.text)
