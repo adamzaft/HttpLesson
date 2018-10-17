@@ -4,6 +4,7 @@ import argparse
 from multiprocessing import Process
 import requests
 import json
+import pytest
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--agentid", help="Indicates agent ID")
@@ -40,16 +41,16 @@ def run():
     print('~~~~~~~~~ Agent', XmlParser.agentID('1'), ' is online - welcome to SKYNET~~~~~~~~~')
     httpd.serve_forever()
 
-    # Initialize server and start it, need to add read from configuration -> IP and PORT and ID
-
 if __name__ == '__main__':
 
     #run()
-    serverIP = XmlParser.serverIP()
-    print('Server ip is:',serverIP)
+    server='http://'+XmlParser.serverIP()
+    print('Server ip is:',server)
     serverPORT = XmlParser.serverPORT()
     print('Server port is:',serverPORT)
-
     payload = {'some': 'data'}
-    r= requests.post('http://127.0.0.1', data={'foo': 'bar'})
+    r= requests.post(server, json=payload)
     print(r.text)
+
+    pytest.main(['-x','C:/Users/adamz/PycharmProjects/HttpLesson/venv/pytest_sample.py'])
+    # pytest.cmdline.main(args)

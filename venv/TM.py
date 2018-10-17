@@ -36,22 +36,16 @@ def run_server():
     print('~~~~~~~~~ Server is online - welcome to SKYNET~~~~~~~~~')
     httpd.serve_forever()
 
-def run():
-    print('Starting HttpServer..please hold..')
-    while 1:
-        cmd = input('input command (ex. Get index.html): ')
-        cmd = cmd.split()
+# def run():
 
-        if cmd[0] == 'exit':  # type exit to exit
-            break
-        elif cmd[0] =='yaniv':
-            print('you are gay')
+   # empty
 
 
 if __name__ == '__main__':
-   # info('Starting')
-    p1=Process(target=run_server)
-    p1.start()
-    p1.join()
 
-    run()
+   p1 = Process(target=run_server)
+   p1.start()
+   p1.join()
+
+
+    #run()
