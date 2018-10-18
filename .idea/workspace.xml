@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68814357-c8e4-49ab-83d0-8f1ac1a9bd6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/pytest_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/TM.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TM.py" afterDir="false" />
     </list>
@@ -26,24 +25,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4168" />
+          <entry key="py" value="5258" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="4168" />
+          <entry key="Python" value="5258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -54,13 +53,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/TM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+            <state relative-caret-position="408">
+              <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1539780689938" expanded="true" signature="179:180" ph="..." />
-                <marker date="1539780689938" expanded="true" signature="1259:1264" ph="..." />
-                <marker date="1539780689938" expanded="true" signature="1259:1274" ph="..." />
+                <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
+                <marker date="1539850081504" expanded="true" signature="2028:3239" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,11 +67,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="54" column="86" selection-start-line="54" selection-start-column="86" selection-end-line="54" selection-end-column="86" />
+            <state relative-caret-position="204">
+              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1539781012272" expanded="true" signature="1392:1394" ph="..." />
+                <marker date="1539850131309" expanded="true" signature="2245:2247" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,11 +121,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_python-http-server-client-master.zip/python-http-server-client-master/kodefun-httpserver.py" />
-        <option value="$PROJECT_DIR$/HttpServer.py" />
         <option value="$PROJECT_DIR$/venv/test.py" />
         <option value="$PROJECT_DIR$/venv/XmlParser.py" />
         <option value="$PROJECT_DIR$/HttpClient.py" />
         <option value="$PROJECT_DIR$/venv/pytest_sample.py" />
+        <option value="$PROJECT_DIR$/HttpServer.py" />
         <option value="$PROJECT_DIR$/venv/TM.py" />
         <option value="$PROJECT_DIR$/venv/Agent.py" />
       </list>
@@ -162,17 +160,6 @@
             <path>
               <item name="HttpLesson" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="HttpLesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (HttpLesson) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="HttpLesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (HttpLesson) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="b5f07198:RTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -334,8 +321,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Agent" />
         <item itemvalue="Python.TM" />
+        <item itemvalue="Python.Agent" />
         <item itemvalue="Python.XmlParser" />
         <item itemvalue="Python.HttpClient" />
         <item itemvalue="Python.kodefun-httpserver" />
@@ -395,14 +382,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917467" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32917467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917467" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917467" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917467" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32917467" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,27 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539608674416" expanded="true" signature="121:126" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/email/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -539,6 +505,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pytest_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="6" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="67" column="51" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1539847954218" expanded="true" signature="130:796" ph="..." />
+            <marker date="1539847954218" expanded="true" signature="846:851" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -549,33 +544,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/pytest_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/TM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        <state relative-caret-position="408">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539780689938" expanded="true" signature="179:180" ph="..." />
-            <marker date="1539780689938" expanded="true" signature="1259:1264" ph="..." />
-            <marker date="1539780689938" expanded="true" signature="1259:1274" ph="..." />
+            <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
+            <marker date="1539850081504" expanded="true" signature="2028:3239" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="54" column="86" selection-start-line="54" selection-start-column="86" selection-end-line="54" selection-end-column="86" />
+        <state relative-caret-position="204">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539781012272" expanded="true" signature="1392:1394" ph="..." />
+            <marker date="1539850131309" expanded="true" signature="2245:2247" ph="..." />
           </folding>
         </state>
       </provider>
