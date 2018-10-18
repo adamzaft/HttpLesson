@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68814357-c8e4-49ab-83d0-8f1ac1a9bd6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HttpServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TM.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +33,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5258" />
+          <entry key="py" value="5260" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="5258" />
+          <entry key="Python" value="5260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/TM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
@@ -67,11 +65,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+            <state relative-caret-position="260">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1539850131309" expanded="true" signature="2245:2247" ph="..." />
+                <marker date="1539867023881" expanded="true" signature="2454:2456" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="238">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -375,7 +373,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -536,7 +533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="238">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -546,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/TM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
@@ -558,11 +555,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+        <state relative-caret-position="260">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539850131309" expanded="true" signature="2245:2247" ph="..." />
+            <marker date="1539867023881" expanded="true" signature="2454:2456" ph="..." />
           </folding>
         </state>
       </provider>

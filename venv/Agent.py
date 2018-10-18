@@ -17,6 +17,9 @@ args = parser.parse_args()
 class myHTTPRequstHandlerAgent(BaseHTTPRequestHandler): # override POST command
     def do_POST(self):
         try:
+            content_length = int(self.headers['Content-Length'])  # <--- Gets the size of data
+            post_data = self.rfile.read(content_length)  # <--- Gets the data itself
+            print(post_data)
             # send 200 response
             self.send_response(200)
             # send header first
