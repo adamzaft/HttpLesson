@@ -6,6 +6,7 @@ import requests
 import json
 import pytest
 import threading
+import Adapter
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--agentid", help="Indicates agent ID")
@@ -87,16 +88,32 @@ if __name__ == '__main__':
         # Request command to server
         if cmd[0]=='POST':
             try:
-                server = 'http://' + XmlParser.serverIP()
-                print('Sending to IP:', server)
-                serverPORT = XmlParser.serverPORT()
-                print('Sending to PORT:', serverPORT)
-                payload = {'POST': 'SEND POST DATA FROM AGENT'}
-                r = requests.post(server, json=payload)
+                # server = 'http://' + XmlParser.serverIP()
+                # print('Sending to IP:', server)
+                # serverPORT = XmlParser.serverPORT()
+                # print('Sending to PORT:', serverPORT)
+                #payload = {'POST': 'SEND POST DATA FROM AGENT'}
+                # r = requests.post(server, json=payload)
+
+                r = Adapter.sendData(IP='127.0.0.1', port='80', data='test data for adapter send')
+
                 print(r.text)
             except IOError:
                 print(IOError)
+        if cmd[0] == 'connect':
+            try:
+                # server = 'http://' + XmlParser.serverIP()
+                # print('Sending to IP:', server)
+                # serverPORT = XmlParser.serverPORT()
+                # print('Sending to PORT:', serverPORT)
+                #payload = {'POST': 'SEND POST DATA FROM AGENT'}
+                # r = requests.post(server, json=payload)
 
+                r = Adapter.myCon(IP='127.0.0.1', port='80',version=1)
+
+                print(r.text)
+            except IOError:
+                print(IOError)
 
         if cmd[0]=='GET':
             try:

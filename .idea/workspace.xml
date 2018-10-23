@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68814357-c8e4-49ab-83d0-8f1ac1a9bd6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/ICD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/TM.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,24 +27,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="29" />
+          <entry key="py" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="29" />
+          <entry key="Python" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5260" />
+          <entry key="py" value="6164" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="5260" />
+          <entry key="Python" value="6164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -49,48 +53,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/TM.py">
+        <entry file="file://$PROJECT_DIR$/venv/Agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="569">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
-                <marker date="1539850081504" expanded="true" signature="2028:3239" ph="..." />
+                <marker date="1540270753281" expanded="true" signature="2469:2471" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Adapter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1540272607008" expanded="true" signature="74:75" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/Agent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-                <marker date="1539867023881" expanded="true" signature="2454:2456" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/pytest_sample.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/XmlParser.py">
+        <entry file="file://$PROJECT_DIR$/venv/ICD.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1540272601025" expanded="true" signature="187:188" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,6 +120,8 @@
         <option value="$PROJECT_DIR$/HttpServer.py" />
         <option value="$PROJECT_DIR$/venv/TM.py" />
         <option value="$PROJECT_DIR$/venv/Agent.py" />
+        <option value="$PROJECT_DIR$/venv/ICD.py" />
+        <option value="$PROJECT_DIR$/venv/Adapter.py" />
       </list>
     </option>
   </component>
@@ -182,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TM">
+  <component name="RunManager" selected="Python.Agent">
     <configuration name="Agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HttpLesson" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,8 +315,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TM" />
         <item itemvalue="Python.Agent" />
+        <item itemvalue="Python.TM" />
         <item itemvalue="Python.XmlParser" />
         <item itemvalue="Python.HttpClient" />
         <item itemvalue="Python.kodefun-httpserver" />
@@ -373,6 +369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -541,25 +538,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/http/cookiejar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1206" selection-start-line="1206" selection-end-line="1206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="808" selection-start-line="808" selection-end-line="808" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="838" selection-start-line="838" selection-end-line="838" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/TM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539850081504" expanded="true" signature="2028:2030" ph="..." />
-            <marker date="1539850081504" expanded="true" signature="2028:3239" ph="..." />
+            <marker date="1540270644760" expanded="true" signature="2028:2030" ph="..." />
+            <marker date="1540270644760" expanded="true" signature="2028:3239" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="569">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1539867023881" expanded="true" signature="2454:2456" ph="..." />
+            <marker date="1540270753281" expanded="true" signature="2469:2471" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1540272607008" expanded="true" signature="74:75" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/ICD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1540272601025" expanded="true" signature="187:188" ph="..." />
           </folding>
         </state>
       </provider>

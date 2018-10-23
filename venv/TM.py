@@ -21,7 +21,7 @@ class myHTTPRequstHandler(BaseHTTPRequestHandler):
 
             # send file content to client
 
-            my_str = "Received psot message at SERVER, sending response"
+            my_str = "Received post message at SERVER, sending response"
             my_str_as_bytes = str.encode(my_str)
 
             self.wfile.write(my_str_as_bytes)
